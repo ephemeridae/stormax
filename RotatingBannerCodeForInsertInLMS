@@ -1,0 +1,68 @@
+<style type="text/css">.boxNoPadding{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 10500;
+    height: 100%;
+}
+
+.boxNoPadding p {
+    padding: 0;
+    margin: 0;
+}
+.boxNoPadding img{
+    margin-top:1px;
+}
+
+.globalRoundedCorners {
+    border-radius: 0!important;
+    box-shadow: none;
+}
+   
+
+body{
+    background-position: top right!important;
+    background-image: url("https://insert link to background here or remove the style")!important;
+    background-size: cover!important
+}
+
+.MyLearning-banner {
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10500;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.banner-medium {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10500;
+    
+    width: 100%;
+    height: 100%;
+}
+.banner-vertical {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10500;
+    
+    width: 100%;
+    height: 100%;
+}
+</style>
+<div class="MyLearning-banner">
+<p class="Center_frame"><iframe frameborder="0" height="612" marginheight="0" marginwidth="0" name="Featured Courses" scrolling="no" src="ABSOLUTE PATH TO THE 'demo1-SAP-SML' HTML FILE ON EXTERNAL SERVER" style="border: 0px rgb(255, 255, 255); border-image: none;" width="928"></iframe></p>
+</div>
