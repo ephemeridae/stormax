@@ -1,0 +1,366 @@
+<div class="tileContentWrapper" id="54:contentWrapper">
+<div class="content" id="54:content">
+<div class="fadeContent">
+<div class="fadeContent">
+<style type="text/css">.slider{
+    width: 890px;
+    height: 300px;
+    position: relative;
+    margin-top: 26px;
+    overflow: hidden;
+  }
+  
+  div.slider:hover .slider-item{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
+  }
+  
+  .slider-item{
+    position: absolute;
+    left: 1060px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slider-item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    } 
+
+  /*Animation*/
+  .slider-item:nth-of-type(1){
+    animation: slideIn 25s linear 0s infinite;
+  }
+  .slider-item:nth-of-type(2){
+    animation: slideIn 25s linear 5s infinite;
+  }
+  .slider-item:nth-of-type(3){
+    animation: slideIn 25s linear 10s infinite;
+  }
+  .slider-item:nth-of-type(4){
+    animation: slideIn 25s linear 15s infinite;
+  }
+  .slider-item:nth-of-type(5){
+    animation: slideIn 25s linear 20s infinite;
+  }
+  
+  @keyframes slideIn{
+    0% {left: 1060px;}
+    1% {left: 0;}
+    20% {left: 0;}
+    21% {left: -1060px;}
+    100%{left: -1060px;}
+  }
+  
+  /*left*/
+  .wrapper-banner-text {
+  position: absolute;
+  left:40px;
+  height: 220px;
+  width: 450px;
+  top:10%;
+  }
+  
+  /*right*/
+  .wrapper-banner-text2{
+  position: absolute;
+  left:49%;
+  height: 220px;
+  width: 410px;
+  top:10%;
+  }
+  
+  .title2{
+  color:#1a1a1a;
+  font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  }
+  
+  .content2{
+  color:#1a1a1a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  }
+  
+  .wrapper-banner-content{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  }
+  
+  .title{
+  color:#ffd700;
+  font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  }
+  
+  .content1{
+  color:#e6e6e6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  }
+  
+  .button {
+  background-color: #0080ff;
+  border: none;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 4px;
+  min-width:120px;
+  }
+  .button-2 {
+    background-color: #0080ff;
+  border: none;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 4px;
+  min-width:120px;
+  position: absolute;
+  bottom:0px;
+  }
+  .button-2:hover {
+  background-color: #ffd700;
+  color: #404040 !important;;
+  }
+  .button:hover {
+  background-color: #ffd700;
+  color: #404040 !important;;
+  }
+  .wrapper-title{
+  
+  margin-bottom: 5px;
+  }
+  .wrapper-content{
+  margin-bottom: 10px;
+  }
+  
+  .wrapper-button{
+    display: inline-block;
+  }
+  
+  a {
+  text-decoration: none !important;
+  color: inherit !important;
+  }
+
+  a:focus{
+       outline: 0.5px dotted black;
+       outline-offset: -3px;
+     }
+  
+  .indicator{
+  position: absolute;
+  left:50%;
+  bottom:7%;
+  text-align:center;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .indicator-color {
+  background-color: #428bca;
+  }
+
+  .container-button{
+      position: relative;
+  }
+.play-button{
+font-size:12px;
+margin-right:5px;
+}
+</style>
+<div class="slider"><!--Banner 1-->
+<div class="slider-item">
+<div class="wrapper-banner-text">
+<div class="wrapper-banner-content">
+<div class="wrapper-title">
+<div class="title"><span style="color:#ffffff;">Goals and Feedback</span></div>
+</div>
+
+<div class="wrapper-content">
+<div class="content1">Keeping up with your goals has never been more engaging! Reflecting does not need to happen only when the project ends - ask for feedback from your peers, agile team members or your manager today!</div>
+</div>
+
+<div class="container-button">
+<div aria-label="Learn More" class="wrapper-button" role="button"><a class="button" href="https://salesdemo.successfactors.eu/sf/goals/" target="_blank">ACCESS</a>AA</div>
+</div>
+</div>
+</div>
+
+<div class="indicator" title="indicator">
+<div class="dot indicator-color">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+</div>
+<img alt="SAP learning Hub, internal edition" src="/learning/admin/image/downloadAttachment.do?attachmentId=24016&amp;editMode=false&amp;customTileID=cad925c7-54d1-4ce4-8871-10dd7641fe6a&amp;entityType=HOME%5fCUSTOM%5fTILE%5fCONTENT%5fATTACHMENTS" /></div>
+<!--Banner 2-->
+
+<div class="slider-item">
+<div class="wrapper-banner-text2">
+<div class="wrapper-banner-content">
+<div class="wrapper-title">
+<div class="title2">Mentoring and Coaching</div>
+</div>
+
+<div class="wrapper-content">
+<div class="content2">Do you enjoy formal learining but find yourself thriving when getting personalized development caoching?&nbsp;Get matched with a mentor and receive guidance&nbsp;on your career!</div>
+</div>
+
+<div aria-label="Access" class="wrapper-button" role="button"><a class="button" href="https://salesdemo.successfactors.eu/sf/mentoring">ACCESS</a></div>
+</div>
+</div>
+
+<div class="indicator" title="indicator">
+<div class="dot">&nbsp;</div>
+
+<div class="dot indicator-color">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+</div>
+<img alt="Learning &amp; Development Community" src="/learning/admin/image/downloadAttachment.do?attachmentId=24013&amp;editMode=false&amp;customTileID=cad925c7-54d1-4ce4-8871-10dd7641fe6a&amp;entityType=HOME%5fCUSTOM%5fTILE%5fCONTENT%5fATTACHMENTS" /></div>
+<!--Banner 3-->
+
+<div class="slider-item">
+<div class="wrapper-banner-text">
+<div class="wrapper-banner-content">
+<div class="wrapper-title">
+<div class="title2">What is it like working here?</div>
+</div>
+
+<div class="wrapper-content">
+<div class="content2">Our organization is a place where crazy ideas are encouraged and we treat each other with respect. The team has created a video to reflect the culture of our company and will be used for recruitment purposes - we would love for you to share it on social media!</div>
+</div>
+
+<div class="container-button">
+<div aria-label="Access" class="wrapper-button" role="button"><a class="button" href="https://www.youtube.com/watch?v=YyDM3LajCog">ACCESS</a></div>
+</div>
+</div>
+</div>
+
+<div class="indicator" title="indicator">
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot indicator-color">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+</div>
+<img alt="Talent Marketplace" src="/learning/admin/image/downloadAttachment.do?attachmentId=24015&amp;editMode=false&amp;customTileID=cad925c7-54d1-4ce4-8871-10dd7641fe6a&amp;entityType=HOME%5fCUSTOM%5fTILE%5fCONTENT%5fATTACHMENTS" /></div>
+<!--Banner 4-->
+
+<div class="slider-item">
+<div class="wrapper-banner-text2">
+<div class="wrapper-banner-content">
+<div class="wrapper-title">
+<div class="title2">My Personalized Learning</div>
+</div>
+
+<div class="wrapper-content">
+<div class="content2">The go-to-place to update your information in order to get better matched to positions and personalized learning is your personal profile. Make sure to keep it accurate as the internal HR team uses it to peovide you the best experience using to provide you with the best HR experience.</div>
+</div>
+
+<div class="container-button">
+<div aria-label="Access" class="wrapper-button" role="button"><a class="button" href="https://salesdemo.successfactors.eu/sf/personalInfo">ACCESS</a></div>
+</div>
+</div>
+</div>
+
+<div class="indicator" title="indicator">
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot indicator-color">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+</div>
+<img alt="Coach Finder" src="/learning/admin/image/downloadAttachment.do?attachmentId=24017&amp;editMode=false&amp;customTileID=cad925c7-54d1-4ce4-8871-10dd7641fe6a&amp;entityType=HOME%5fCUSTOM%5fTILE%5fCONTENT%5fATTACHMENTS" /></div>
+<!--Banner 5-->
+
+<div class="slider-item">
+<div class="wrapper-banner-text2">
+<div class="wrapper-banner-content">
+<div class="wrapper-title">
+<div class="title2">Career Aspirations</div>
+</div>
+
+<div class="wrapper-content">
+<div class="content2">Did you know that you can check out career paths in our organization? You can even make your own, going outside of any traditional career path by adding it to your desired roles list!&nbsp;</div>
+</div>
+
+<div class="container-button">
+<div aria-label="Access" class="wrapper-button" role="button"><a class="button" href="https://salesdemo.successfactors.eu/sf/careerworksheet">ACCESS</a></div>
+</div>
+</div>
+</div>
+
+<div class="indicator" title="indicator">
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot">&nbsp;</div>
+
+<div class="dot indicator-color">&nbsp;</div>
+</div>
+<img alt="Mentoring Tool" src="/learning/admin/image/downloadAttachment.do?attachmentId=24014&amp;editMode=false&amp;customTileID=cad925c7-54d1-4ce4-8871-10dd7641fe6a&amp;entityType=HOME%5fCUSTOM%5fTILE%5fCONTENT%5fATTACHMENTS" /></div>
+</div>
+</div>
+
+<div class="fadeShim globalTileFade" style="display: none;">&nbsp;</div>
+
+<div class="fadeShim fadeShimBottom globalRoundedCorners globalTileBody" style="display: none;">&nbsp;</div>
+</div>
+
+<div class="fadeShim globalTileFade" style="display: none;">&nbsp;</div>
+
+<div class="fadeShim fadeShimBottom globalRoundedCorners globalTileBody" style="display: none;">&nbsp;</div>
+</div>
+</div>
