@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hunet mobile test</title>
+        <style>
+            body {
+                background-color: #9adaca;
+            }
+        </style>
+        <script>
+            // SSO로그인
+            function ssoLoginToHunet(){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "hunetmlc://?cSeq=5024&userId=BRiqIGClp3ZREvADYFHTIA%3d%3d";
+                    location.href=locat;
+            }
+
+            // 나의 강의실 로 이동
+            function ssoMyRoomTabHunet(){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "hunetmlc://?cSeq=5024&userId=BRiqIGClp3ZREvADYFHTIA%3d%3d&action=classroom";
+                    location.href=locat;
+            }
+
+            // 특정 과정 학습창 으로 이동
+            function ssoMyRoomHunet(){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "hunetmlc://?cSeq=5024&processCd=HLSP51653&processYear=2023&processTerm=과정기수&userId=BRiqIGClp3ZREvADYFHTIA%3d%3d&action=classroom";
+                    location.href=locat;
+            }
+            /*
+            김현정님아이디 : 20220014 
+   암호화 구문 : BRiqIGClp3ZREvADYFHTIA== 
+   로그인 연동 주소 : https://woomi.hunet.co.kr/Login/__sigUpLOGIN?USERID=BRiqIGClp3ZREvADYFHTIA%3d%3d 
+  
+   테스트 아이디 : admin 
+   암호화 구문 : Z1dImib2W/aIdlv3LzM3tQ== 
+   로그인 연동 주소 : https://woomi.hunet.co.kr/Login/__sigUpLOGIN?USERID=Z1dImib2W%2faIdlv3LzM3tQ%3d%3d 
+  
+  
+4. 입과되어 있는 학습창 직접 오픈 링크 
+     http://porting.hunet.co.kr/in/72?cseq=5024&subj=HLSP43063&subjstartdate=20230501&userId=admin 
+      
+   [파라미터 정의] 
+   cseq 5024 고정 
+   subj 과정코드 
+   subjstartdate  학습시작일 
+   userId 학습자 아이디 
+  
+5. 연수원내 페이지 링크 이동  
+   * 로그인 연동 이후 returnur로 해당 페이지 주소 입력 
+    
+  교육과정 리스트로 이동 
+   https://woomi.hunet.co.kr/Login/__sigUpLOGIN?USERID=BRiqIGClp3ZREvADYFHTIA%3d%3d&returnurl=%2fLecture%2fOnlineUX%3fProcessType2%3d1 
+  
+   교육과정 상세 페이지 이동 
+   https://woomi.hunet.co.kr/Login/__sigUpLOGIN?USERID=BRiqIGClp3ZREvADYFHTIA%3d%3d&returnurl=%2fLecture%2fDetail%3fprocessCd%3dHLSP51653%26processYear%3d2023%26processTerm%3d3890%26cpCd%3dhunet%26categoryNo%3d95  
+     
+   [파라미터 정의] 
+   processCd 과정코드 
+   processYear 과정연도 
+   processTerm 과정기수 
+   cpCd cp코드 (대부분 hunet 고정) 
+   categoryNo 과정 최하위 카데고리 
+*/
+            </script>
+    </head>
+    <body>
+        <div>
+            <h1>codeomni.tistory</h1>
+            <button type="submit" onClick="ssoLoginToHunet()"">submit 버튼</button>
+            <button type="reset" onClick="ssoMyRoomTabHunet()"">reset 버튼</button>
+            <button type="button" onClick="ssoMyRoomHunet()"">button 버튼</button>
+        </div>
+    </body>
+</html>
