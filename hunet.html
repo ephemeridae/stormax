@@ -8,10 +8,17 @@
             }
         </style>
         <script>
-            // SSO로그인
+            // 김현정 SSO로그인
             function ssoLoginToHunet(){
                     var userAgent = window.navigator.userAgent;
                     var locat = "hunetmlc://?cSeq=5024&userId=BRiqIGClp3ZREvADYFHTIA==";
+                    location.href=locat;
+            }
+
+            // Admin SSO로그인
+            function ssoAdminLoginToHunet(){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "hunetmlc://?cSeq=5024&userId=Z1dImib2W/aIdlv3LzM3tQ==";
                     location.href=locat;
             }
 
@@ -67,7 +74,7 @@
     </head>
     <body>
         <div>
-            <h1>hunet mobile Test</h1>
+            <h1>hunet mobile Test V2</h1>
             <button type="button" onClick="ssoLoginToHunet()"">SSO로그인 버튼</button>
             <button type="button" onClick="ssoMyRoomTabHunet()"">나의 강의실 로 이동 버튼</button>
             <button type="button" onClick="ssoMyRoomHunet()"">특정 과정 학습창 으로 이동 버튼</button>
