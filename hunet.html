@@ -35,6 +35,14 @@
                     var locat = "hunetmlc://?cSeq=5024&processCd=HLSP51653&processYear=2023&processTerm=3890&userId=BRiqIGClp3ZREvADYFHTIA==&action=classroom";
                     location.href=locat;
             }
+
+            // 우미용 휴넷 앱설치
+            function installHunet(){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "http://mlc.hunet.co.kr/areas/5024/down.html";
+                    location.href=locat;
+            }
+            
             /*
             김현정님아이디 : 20220014 
    암호화 구문 : BRiqIGClp3ZREvADYFHTIA== 
@@ -74,10 +82,12 @@
     </head>
     <body>
         <div>
-            <h1>hunet mobile Test V2</h1>
+            <h1>hunet mobile Test V3</h1>
             <button type="button" onClick="ssoLoginToHunet()"">SSO로그인 버튼</button>
+            <button type="button" onClick="ssoAdminLoginToHunet()"">SSO로그인 버튼</button>
             <button type="button" onClick="ssoMyRoomTabHunet()"">나의 강의실 로 이동 버튼</button>
             <button type="button" onClick="ssoMyRoomHunet()"">특정 과정 학습창 으로 이동 버튼</button>
+            <button type="button" onClick="installHunet()"">우미용 휴넷 앱설치</button>
         </div>
     </body>
 </html>
