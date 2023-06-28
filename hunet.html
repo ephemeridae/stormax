@@ -28,6 +28,12 @@
                     var locat = "hunetmlc://?cSeq=5024&userId=woomi20220014&action=classroom";
                     location.href=locat;
             }
+            // 나의 강의실 로 이동
+            function ssoMyRoomTabHunet2(userid){
+                    var userAgent = window.navigator.userAgent;
+                    var locat = "hunetmlc://?cSeq=5024&userId="+userid+"&action=classroom";
+                    location.href=locat;
+            }
 
             // 특정 과정 학습창 으로 이동
             function ssoMyRoomHunet(){
@@ -116,6 +122,11 @@
     <body>
         <div>
             <h1>hunet mobile Test V5</h1>
+        </div>
+        <div>
+            <h1>Android</h1>
+            <button type="button" onClick="ssoMyRoomTabHunet('woomi20220014')"">김현정 부장 강의실 로 이동 버튼</button>
+            <button type="button" onClick="ssoMyRoomTabHunet('woomi20220206')"">김문정 부장 강의실 로 이동 버튼</button>
         </div>
         <div>
             <h1>Android</h1>
